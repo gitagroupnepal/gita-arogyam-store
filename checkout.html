@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout | Gita Arogyam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-mark">G</div>
+        Gita Arogyam
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="product-detail.html">Details</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="tracking.html">Tracking</a>
+        <a href="login.html">Login</a>
+      </nav>
+
+      <div class="nav-right">
+        <div class="icon-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="icon-btn"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">2</span></div>
+        <button class="primary-btn">Contact Us</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-head">
+      <h1 class="page-title">Checkout</h1>
+      <div class="page-sub">Complete your order securely</div>
+    </div>
+
+    <div class="form-layout">
+      <div class="form-card">
+        <h3>Shipping Information</h3>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" value="Ramesh Sharma" />
+          </div>
+
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="text" value="+977-9812345678" />
+          </div>
+
+          <div class="form-group full">
+            <label>Address</label>
+            <input type="text" value="Birgunj, Parsa, Nepal" />
+          </div>
+
+          <div class="form-group">
+            <label>City</label>
+            <input type="text" value="Birgunj" />
+          </div>
+
+          <div class="form-group">
+            <label>Province</label>
+            <select>
+              <option>Bagmati</option>
+              <option selected>Province 2</option>
+              <option>Gandaki</option>
+            </select>
+          </div>
+
+          <div class="form-group full">
+            <label>Notes</label>
+            <textarea>Leave package at the main gate.</textarea>
+          </div>
+        </div>
+      </div>
+
+      <aside class="summary-card">
+        <h3>Order Summary</h3>
+
+        <div class="summary-list">
+          <div class="summary-row">
+            <span>Herbal Mix Powder</span>
+            <span>Rs. 350</span>
+          </div>
+          <div class="summary-row">
+            <span>Ayurvedic Blend</span>
+            <span>Rs. 420</span>
+          </div>
+          <div class="summary-row">
+            <span>Shipping</span>
+            <span>Rs. 100</span>
+          </div>
+
+          <div class="summary-row total">
+            <span>Total</span>
+            <span>Rs. 870</span>
+          </div>
+        </div>
+
+        <button class="checkout-btn">Place Order</button>
+      </aside>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

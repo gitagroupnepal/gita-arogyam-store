@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Gita Arogyam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-mark">G</div>
+        Gita Arogyam
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="product-detail.html">Details</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="tracking.html">Tracking</a>
+        <a href="login.html">Login</a>
+      </nav>
+
+      <div class="nav-right">
+        <div class="icon-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="icon-btn"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">2</span></div>
+        <button class="primary-btn">Contact Us</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="login-wrap">
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-target="login">Login</button>
+        <button class="auth-tab" data-target="signup">Sign Up</button>
+      </div>
+
+      <form class="auth-form" data-form="login" style="display:flex;">
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" value="user@gmail.com" />
+        </div>
+
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" value="********" />
+        </div>
+
+        <button type="button" class="btn primary">Login</button>
+      </form>
+
+      <form class="auth-form" data-form="signup" style="display:none;">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" value="Ramesh Sharma" />
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" value="ramesh@gmail.com" />
+        </div>
+
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" value="********" />
+        </div>
+
+        <button type="button" class="btn primary">Create Account</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

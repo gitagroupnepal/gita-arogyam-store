@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart | Gita Arogyam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-mark">G</div>
+        Gita Arogyam
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="product-detail.html">Details</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="tracking.html">Tracking</a>
+        <a href="login.html">Login</a>
+      </nav>
+
+      <div class="nav-right">
+        <div class="icon-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="icon-btn"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">2</span></div>
+        <button class="primary-btn">Contact Us</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-head">
+      <h1 class="page-title">Your Cart</h1>
+      <div class="page-sub">Review your order before checkout</div>
+    </div>
+
+    <div class="cart-layout">
+      <div class="cart-card">
+        <div class="cart-item">
+          <div class="cart-thumb"></div>
+          <div class="cart-info">
+            <div class="cart-name">Herbal Mix Powder</div>
+            <div class="cart-meta">250g • Natural blend</div>
+            <div class="cart-row">
+              <div class="cart-price">Rs. 350</div>
+              <div class="qty-lite">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <div class="cart-thumb red"></div>
+          <div class="cart-info">
+            <div class="cart-name">Ayurvedic Blend</div>
+            <div class="cart-meta">250g • Daily care</div>
+            <div class="cart-row">
+              <div class="cart-price">Rs. 420</div>
+              <div class="qty-lite">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="summary-card">
+        <h3>Order Summary</h3>
+
+        <div class="summary-list">
+          <div class="summary-row">
+            <span>Sub Total</span>
+            <span>Rs. 770</span>
+          </div>
+
+          <div class="summary-row">
+            <span>Shipping</span>
+            <span>Rs. 100</span>
+          </div>
+
+          <div class="summary-row">
+            <span>Discount</span>
+            <span>Rs. 0</span>
+          </div>
+
+          <div class="summary-row total">
+            <span>Total</span>
+            <span>Rs. 870</span>
+          </div>
+        </div>
+
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </aside>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

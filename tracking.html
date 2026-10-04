@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Tracking | Gita Arogyam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-mark">G</div>
+        Gita Arogyam
+      </div>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="product-detail.html">Details</a>
+        <a href="cart.html">Cart</a>
+        <a href="checkout.html">Checkout</a>
+        <a href="tracking.html">Tracking</a>
+        <a href="login.html">Login</a>
+      </nav>
+
+      <div class="nav-right">
+        <div class="icon-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="icon-btn"><i class="fa-solid fa-cart-shopping"></i><span class="cart-count">2</span></div>
+        <button class="primary-btn">Contact Us</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-head">
+      <h1 class="page-title">Track Your Order</h1>
+      <div class="page-sub">Order ID: GA-2026-1042</div>
+    </div>
+
+    <div class="form-layout">
+      <div class="status-box">
+        <h3>Shipping Status</h3>
+
+        <div class="track-steps">
+          <div class="step done">
+            <div class="dot"></div>
+            <div>
+              <div class="step-title">Order Placed</div>
+              <div class="step-text">Your order has been confirmed and packed.</div>
+            </div>
+          </div>
+
+          <div class="step done">
+            <div class="dot"></div>
+            <div>
+              <div class="step-title">Dispatched</div>
+              <div class="step-text">The package left our warehouse and is on the way.</div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="dot"></div>
+            <div>
+              <div class="step-title">Out for Delivery</div>
+              <div class="step-text">The courier is currently delivering your package.</div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="dot"></div>
+            <div>
+              <div class="step-title">Delivered</div>
+              <div class="step-text">Your package will be delivered to your address.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="status-box">
+        <h3>Timeline</h3>
+        <div class="timeline">
+          <div class="timeline-item done">
+            <strong>January 20, 2026</strong>
+            <span>Order confirmed by Gita Arogyam</span>
+          </div>
+
+          <div class="timeline-item done">
+            <strong>January 21, 2026</strong>
+            <span>Package packed and dispatched from warehouse</span>
+          </div>
+
+          <div class="timeline-item">
+            <strong>January 22, 2026</strong>
+            <span>In transit to delivery hub</span>
+          </div>
+
+          <div class="timeline-item">
+            <strong>January 23, 2026</strong>
+            <span>Expected delivery to your address</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
